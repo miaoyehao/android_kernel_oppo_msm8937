@@ -1,3 +1,4 @@
+#gcc-linaro-5.1-2015.08-x86_64_aarch64-linux-gnu.tar.xz&gcc-linaro-5.1-2015.08-x86_64_arm-linux-gnueabihf.tar.xz&linux-x86-refs_heads_android12-release-clang-r416183b1.tar
 sudo apt install clang lld bison flex make python3 binutils binutils-aarch64-linux-gnu binutils-arm-linux-gnueabihf git -y
 git clone https://gitlab.com/mmqmemm/android_kernel_oppo_msm8937 -b staging/lineage-19.1-msm8953 --depth=1 export 
 PATH=/home/miao/clang-r416183b1/bin:$PATH export 
